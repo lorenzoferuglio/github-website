@@ -94,7 +94,16 @@
 								<h2 id="C&DH">C&DH</h2>
 								<span class="byline">High level, low level efforts</span>
 							</header>
-							<p>My contribution on e-st@r I C&DH system has been limited: the development was pretty much completed already when I joined the team, so all I did was debug the code and test it.</br>e-st@r II, on the other side, saw me deeply involved in the development: taking as a base the heritage of e-st@r I, I worked to completely change the behavior of three operative modes, and several telecommands were improved or rewritten from scratch. Furthermore, I introduced new features that allowed easier execution of test procedures during functional testing, for example the possibility of controlling the satellite via USB.</p>
+							On this subsystem I worked on the <strong>software</strong> side:
+							<ul style="list-style-type:circle">
+								<li style="circle"><strong>Operative modes definition and implementation</strong>, including scheduling, mode switching from telecommands, management of the activated/deactivated equipments in each mode</li>
+								<li style="circle"><strong>Telecommands implementation</strong>, both simple C&DH ones such as telemetry management, antenna deployment, mission time update, and so on, and cross-subsystem ones, such as telecommands for the ADCS, such as updating UTC time (used for the propagator), changing the torquers' polarity, and more.</li>
+								<li style="circle">Implementation of functions to help during the <strong>ground tests</strong>, such has interfacing the C&DH with the USB port.</li>
+							</ul>
+							<p>
+							<strong>Things learned</strong>:<br>
+							MSP430 architecture, SD, serial and USB interfaces, data driven telecommands and telemetry implementation, automated testing and testing procedures, low level programming such as pin commanding and reading, telemetry packet building, scheduling and real time operations (and threads, semaphores, custom libraries from the vendor).</br>
+							</p>
 							More info <a href="http://areeweb.polito.it/cubesat-team/missions/e-star-ii/" target="_blank">here</a>. Be aware of possible slow loading.
 						</section>
 						<section>
@@ -113,6 +122,8 @@
 								<li style="circle">Testing and verification of the implemented algorithm with comparisons with Matlab/Simulink code and STK simulations.</li>
 								
 							</ul>
+							<strong>Things learned</strong>:<br>
+							ARM v9 architecture, RT Linux, sensor characterization and functional testing (IMU), actuator functional testing (Magnetic torquers), code verification with STK (SGP4 propagator), magnetic field model implementation and verification via Matlab/Simulink, basics of Kalman Filtering, controls (B-Dot, Y-Thomson for detumbling), PWM control, IMU sampling (gyros, magnetometers) and more.<br><br>
 							More info <a href="http://areeweb.polito.it/cubesat-team/missions/e-star-ii/" target="_blank">here</a>. Be aware of possible slow loading. </p>
 							
 						</section>
