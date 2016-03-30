@@ -61,8 +61,8 @@
 									<ul class="default">
 										<li><a href="#C&DH">C&DH</a></li>
 										<li><a href="#ADCS">ADCS</a></li>
+										<li><a href="#SE">SE</a></li>
 										<li><a href="#AIV">AIV</a></li>
-
 									</ul>
 								</section>
 							</div>
@@ -75,7 +75,11 @@
 								<section>
 									<ul class="default">
 										<li><a href="https://stemn.com/blogs/e-str-ii-updates" target="_blank">21/03/2016: Fly Your Satellite P-POD Integration</a></li>
-
+										<li><a href="http://www.esa.int/Education/CubeSats_-_Fly_Your_Satellite/University_teams_selected_for_phase_2_of_Fly_Your_Satellite!" target="_blank"><span>28/02/2014: Kick-off Phase 2</span></a></li>
+										<li><a href="http://www.esa.int/Education/CubeSats_-_Fly_Your_Satellite/ESA_and_student_teams_kick-off_Fly_Your_Satellite" target="_blank"><span>26/06/2013: Kick-off Phase 1</span></a></li>
+										<li><a href="http://www.esa.int/Education/CubeSats_-_Fly_Your_Satellite/Fly_Your_Satellite!_CubeSat_teams" target="_blank"><span>Student teams</span></a></li>
+										<li><a href="http://www.esa.int/Education/CubeSats_-_Fly_Your_Satellite/Call_for_Proposals_Fly_Your_Satellite" target="_blank"><span>Call for proposals in 2013</span></a></li>
+										<li><a href="http://www.esa.int/Education/CubeSats_-_Fly_Your_Satellite/Fly_Your_Satellite!_programme" target="_blank"><span>Fly Your Satellite! programme</span></a></li>
 									</ul>
 								</section>
 							</div>
@@ -102,12 +106,39 @@
 							I was participating in several activities:
 							<ul>
 								<li style="circle">IMU testing</li>
-								<li style="circle">Responsible for the implementation of the flight code in C. Portions of it were realized with the participation of a colleague.</li>
+								<li style="circle">Magnetic torquers characterization and functional testing</li>
+								<li style="circle">Development of complete flight code in C. Portions of it were realized with the participation of my colleague <a href="https://it.linkedin.com/in/raffaelemozzillo86/en" target="_blank">Raffaele</a>.</li>
 								<li style="circle">Definition of the high level architecture, and the interfaces between ADCS and C&DH systems.</li>
+								<li style="circle">Algorithms development: B-dot control, Y-Thomson control</li>
 								<li style="circle">Testing and verification of the implemented algorithm with comparisons with Matlab/Simulink code and STK simulations.</li>
+								
 							</ul>
 							More info <a href="http://areeweb.polito.it/cubesat-team/missions/e-star-ii/" target="_blank">here</a>. Be aware of possible slow loading. </p>
 							
+						</section>
+						<section>
+							<header>
+								<h2 id="SE">System Engineering</h2>
+								<span class="byline">Grasping the full picture!</span>
+							</header>
+							<p>For e-st@r-II, it was adopted a mixture of document-based and SysML-based approaches.
+							Here is a list of all the activities and documents I have dealt with at a system level:
+							<ul>
+								<li style="circle"><strong>CubeSat Design Description</strong>, it describes into the details the e-st@r-II CUbeSat, from the system point of view</li>
+								<li style="circle"><strong>Environmental Test Plan</strong>, it aims at providing information about the planning of the environmental tests to be performed on e-st@r-II CubeSat. The document guides the developer through the definition of the vibration and thermal-vacuum tests, giving information about the GSE and test facilities to be used, the personnel, organisation and management of the environmental test campaign and its schedule</li>
+								<li style="circle"><strong>Environmental Test Procedure</strong>, it aims at providing all the information required to fully define each test activity foreseen in Environmental Test Plan for the environmental test campaign. In particular, the requirements to be verified, the test approach and requirements for each related acitivity, the precise set-up, the GSE and pass/fail criteria for each test are described.</li>
+								<li style="circle"><strong>FDS-VCD</strong>, it is the Verification Control Document for Fly Your Satellite! Design Specifications. It defines, in matrix form, for each requirement to be verified, the combination of the selected verification methods for the different verification levels at the applicable verification stages.</li>
+								<li style="circle"><strong>Functional Test Reports</strong>. One for each basic and full functional test performed during Fly Your Satellite! programme. It derives the information contained in the Test Plan, Specification and Procedure document, and includes additional elements such as the completed as-run procedure.</li>
+								<li style="circle"><strong>Memo</strong>, several memorandum were produced to provide to ESA specific information, ranging from info at component level up to system level, in a more concise way.</li>
+								<li style="circle"><strong>Mission Description Document</strong>, it is aimed to describe the e-st@r-II mission. The purpose is to give a description of the mission, to provide input for the selection of the best architecture meeting the mission statement in iteration with the definition of the system specification. It presents how the objectives, operation profile, major system events and capabilities, contingencies and performance are expected to be achieved.The document structure goes through the definition of the mission requirements and mission architecture. Then a description of the mission scenario is provided, in terms of main mission phases, satellite operational modes, nominal orbit activities and contingencies, from the perspective of space and ground segments</li>
+								<li style="circle"><strong>Mission Test Report</strong>, it is structured in a similar way to functional test reports, but it provides information about the mission test</li>
+								<li style="circle"><strong>NCR</strong>, during the verification campaigns, several non-conformance occurred. A non-conformance report documents the details of a non-conformance identified in a quality audit or other process review. The objective of the report is to make an unambiguous, defensible, clear and concise definition of the problem so that corrective action can and will be initiated by management</li>
+								<li style="circle"><strong>Request For Waiver</strong>, the objective of the RFW is to be the vehicle for requiring and agreeing to the use or the delivery of a product that does not conform to its approved product configuration baseline</li>
+								<li style="circle"><strong>Review Item Discrepancy</strong>, more than 100 RIDs were created in FYS programme. RIDs are prepared to record identified problems and questions arising from the examination of the review documentation</li>
+								<li style="circle"><strong>Space Debris Mitigation Report</strong>, it reports the assessments, justifications and verification of compliance with ESA requirements about space debris regulations</li>
+								<li style="circle"><strong>SSD-VCD</strong>, it is the VCD for system specifications. It defines, in matrix form, for each requirement to be verified, the combination of the selected verification methods for the different verification levels at the applicable verification stages</li>
+								<li style="circle"><strong>Test Report</strong>, several test reports were produced. They range from tests at component level up to system level. They include about the test set-up, GSE used, as-run procedures and result analysis</li>
+							</ul>
 						</section>
 						<section>
 							<header>
@@ -115,7 +146,13 @@
 								<span class="byline">In the loop simulations</span>
 							</header>
 							<p>I've worked to develop a Hardware-In-The-Loop simulator as my MSc thesis. The simulator was developed in Python (even though the flight code was in C) and included features as automatic code generation, simulation architecture selection (Algorithm-, Software-, Controller- and Hardware-In-The-Loop).
-							The simulator was presented several congresses; download the most recent presentation <a href="Files/HITL.pptx">here</a>.
+							The simulator was presented several congresses; download the most recent presentation <a href="Files/HITL.pptx">here</a>.<br><br>
+							Additional activities:
+							<ul>
+								<li style="circle"><strong>Assembly and verification</strong> of e-st@r-II CubeSat</li>
+								<li style="circle"><strong>Functional test campaign</strong> at Polito</li>
+								<li style="circle"><strong>Integration campaign</strong> at CSG, Kourou, French Guiana</li>
+							</ul>
 						</section>
 					</div>
 
