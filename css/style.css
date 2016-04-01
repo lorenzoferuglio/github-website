@@ -960,6 +960,35 @@
 		text-decoration: none;
 		color:  rgba(255,255,255,.2);
 	}
+/*********************************************************************************/
+/* Featured2                                                                      */
+/*********************************************************************************/
+	
+	#featured2
+	{
+		position: relative;
+		background: url(../images/header.jpg) no-repeat bottom center;
+		background-attachment: fixed;
+		background-size: cover;
+		text-align: center;
+		color: #FFF;
+	}
+	
+	#featured2 h3
+	{
+		display: block;
+		font-weight: 300;
+	}
+
+	#featured2 .pennant
+	{
+		font-size: 4em;
+	}
+	
+	#featured2 .button
+	{
+		margin-top: 1.5em;
+	}
 	
 /*********************************************************************************/
 /* Featured                                                                      */
